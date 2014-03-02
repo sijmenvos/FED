@@ -28,7 +28,7 @@
 
 				<form id="contact" method="post" action="contact.php">
 					<fieldset>
-					<label>Contactgegevens:</label>    
+					<legend>Contactgegevens:</legend>    
 						<label for="name">Naam</label>
 						<input type="text" id="name">
 						 
@@ -58,7 +58,8 @@
 			          	<input type="radio" id="stagebedrijf" name="aanmelden"/>
 			          	<label for="stagebedrijf">Als stagebedrijf</label>
 
-			          	<fieldset id="projectform">
+			          	<fieldset id="projectform" disabled>
+			          		<legend>Project</legend>
 			          		<label for="titel">Titel</label>
 							<input type="text" id="titel">
 
@@ -98,7 +99,8 @@
 							<textarea form="contact" id="opmerkingen_project"></textarea>
 			          	</fieldset>
 
-			          	<fieldset id="stageform">
+			          	<fieldset id="stageform" disabled>
+			          		<legend>Stagebedrijf</legend>
 			          		<label>Geschikt voor</label>
 
 				          	<input type="checkbox" id="stage_tweede" name="jaar_stage"/>
