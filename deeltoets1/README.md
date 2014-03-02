@@ -1,4 +1,0 @@
-FED
-===
-
-Frontend Development CMDA
